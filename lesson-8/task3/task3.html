@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        button{
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            background-color: rgb(76, 240, 150);
+            border: none;
+            cursor: pointer;
+        }
+
+        ul li {
+            width: 200px;
+            list-style-type: none;
+            padding-top: 20px;
+            background-color: rgb(76, 240, 150);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        ul li:hover{
+            background-color: rgb(180, 245, 205)
+        }
+        .ul-disable{
+            
+            display: none;
+        }
+        .ul-active{
+            display: block;
+
+        }
+    </style>
+    <button id="universityBtn">Університет</button>
+    <ul id="ul" class="ul-disable">
+        <li>кафедра ІСМ</li>
+        <li>кафедра ЕСМ</li>
+        <li>кафедра політології</li>
+    </ul>
+
+
+
+    <script src="task3.js"></script>
+</body>
+</html>
